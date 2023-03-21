@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(217, 217, 217);
+    width: 400px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+   /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+  /* background-color: blue; */ 
+    height:55vh;
+    width:80vw ;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+}
+.hello{
+   font-size: 50px;
+   font-family: 'Crimson Text', serif;
+}
+.name{
+   font-size:40px ;
+   font-family: 'Crimson Text', serif;
+}
+.aboutme{
+  font-size: 35px;
+  font-family: 'Crimson Text', serif;
+}
+.btn button{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 15px;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(42, 148, 254);
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color:white;
+    color: dodgerblue;
+
+}
+.devpic img{
+    height: 55vh;
+}
+
+/*contact form*/
+.contactform{
+    margin: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  
+}
+.get{
+    margin-top: 15px;
+    font-size: 25px;
+    color: dodgerblue;
+
+}
+.contactform p{
+    margin: 4px;
+}
+.contactinfo{
+    margin: 15px;
+
+}
+.contactform .heading {
+    font-size: 20px;
+}
+.contactinfo .contactdiv{
+
+    margin-bottom: 10px;
+}
+.message{
+    display: flex;
+}
+.form{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form input{
+    margin: 12px;
+    cursor: pointer;
+}
+.form textarea{
+    margin: 12px;
+    cursor: pointer;
+}
+.form button{
+    margin: 12px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 9px;
+}
+.form button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+/*skills*/
+.main .skillheading{
+    margin: 20px;
+    font-size:35px ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.skillh{
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.skillh div{
+    font-size: 35px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin-bottom: 15px;
+    
+}
+.skillh p{
+    font-size: 20px;
+
+}
+
+.div2 h1{
+    font-size: 35px;
+}
+.div2 img{
+    height: 80px;
+    width: 200px;
+}
+.div2 .py{
+    width:55px ;
+    height:70px ;
+    margin-left: 45px;
+}
+
+/*about me page*/
+ .main .aboutcontainer{
+    margin-top: 50px ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.aboutcontainer h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.aboutcontainer div{
+    display: flex;
+    justify-content: center;
+}
+.aboutpara{
+    margin: 20px;
+    align-items: center;
+
+}
+.aboutpara h1{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: dodgerblue;
+
+}
+.aboutpara p{
+    font-size: 20px;
+}
+.aboutskill h2{
+ font-family: 'Roboto Condensed', sans-serif;
+ font-size: 25px;
+ margin: 5px;
+}
+
+.aboutitem{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.as{
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+/*for mobile device
+@media (max-width:1000px) {
+    *{
+        background-color: rgb(222, 163, 163);
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+}   */
